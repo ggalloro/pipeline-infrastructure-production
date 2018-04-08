@@ -6,6 +6,7 @@ metadata:
   name: pipeline
   namespace: default
 spec:
+  replicas: 4
   selector:
     matchLabels:
       app: pipeline
